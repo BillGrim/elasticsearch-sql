@@ -17,8 +17,11 @@ Elasticsearch-SQL
 **2.4.0** [![2.4.0 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic2.4.0)](https://travis-ci.org/NLPchina/elasticsearch-sql)
 **2.4.1** [![2.4.1 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic2.4.1)](https://travis-ci.org/NLPchina/elasticsearch-sql)
 **2.4.2** [![2.4.2 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic2.4.2)](https://travis-ci.org/NLPchina/elasticsearch-sql)
+**2.4.3** [![2.4.3 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic2.4.3)](https://travis-ci.org/NLPchina/elasticsearch-sql)
+**2.4.4** [![2.4.4 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic2.4.4)](https://travis-ci.org/NLPchina/elasticsearch-sql)
 **5.0.1** [![5.0.1 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic5.0.1)](https://travis-ci.org/NLPchina/elasticsearch-sql)
 **5.1.1** [![5.1.1 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic5.1.1)](https://travis-ci.org/NLPchina/elasticsearch-sql)
+**5.1.2** [![5.1.2 Build Status](https://travis-ci.org/NLPchina/elasticsearch-sql.svg?branch=elastic5.1.2)](https://travis-ci.org/NLPchina/elasticsearch-sql)
 
 Query elasticsearch using familiar SQL syntax.
 You can also use ES functions in SQL.
@@ -58,8 +61,11 @@ Versions
 | 2.4.0                 | 2.4.0.1        | delete commands not supported  | elastic2.4.0 |
 | 2.4.1                 | 2.4.1.0        | delete commands not supported  | elastic2.4.1 |
 | 2.4.2                 | 2.4.2.1        | delete commands not supported  | elastic2.4.2 |
+| 2.4.3                 | 2.4.3.0        | delete commands not supported  | elastic2.4.3 |
+| 2.4.4                 | 2.4.4.0        | delete commands not supported  | elastic2.4.4 |
 | 5.0.1                 | 5.0.1.0        | delete commands not supported  | elastic5.0.1 |
 | 5.1.1                 | 5.1.1.0        | delete commands not supported  | elastic5.1.1 |
+| 5.1.2                 | 5.1.2.0        | delete commands not supported  | elastic5.1.2 |
 
 ### Elasticsearch 1.X
 ````
@@ -125,6 +131,14 @@ Versions
 ````
 ./bin/plugin install https://github.com/NLPchina/elasticsearch-sql/releases/download/2.4.2.1/elasticsearch-sql-2.4.2.1.zip
 ````
+### Elasticsearch 2.4.3
+````
+./bin/plugin install https://github.com/NLPchina/elasticsearch-sql/releases/download/2.4.3.0/elasticsearch-sql-2.4.3.0.zip
+````
+### Elasticsearch 2.4.4
+````
+./bin/plugin install https://github.com/NLPchina/elasticsearch-sql/releases/download/2.4.4.0/elasticsearch-sql-2.4.4.0.zip
+````
 
 ### Elasticsearch 5.0.1
 ````
@@ -134,6 +148,11 @@ Versions
 ### Elasticsearch 5.1.1
 ````
 ./bin/elasticsearch-plugin install https://github.com/NLPchina/elasticsearch-sql/releases/download/5.1.1.0/elasticsearch-sql-5.1.1.0.zip
+````
+
+### Elasticsearch 5.1.2
+````
+./bin/elasticsearch-plugin install https://github.com/NLPchina/elasticsearch-sql/releases/download/5.1.2.0/elasticsearch-sql-5.1.2.0.zip
 ````
 
 After doing this, you need to restart the Elasticsearch server. Otherwise you may get errors like `Invalid index name [sql], must not start with '']; ","status":400}`.
